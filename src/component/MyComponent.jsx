@@ -5,7 +5,7 @@ function MyComponent () {
     const [quantity,setQuantity] = useState(1);
     const [comment,setComment] = useState();
     const [payment,setPayment] = useState("");
-    const [shipping,setShipping] = useState("");
+    const [shipping,setShipping] = useState("")
 
 
     const handleNameChange = (e) =>{
